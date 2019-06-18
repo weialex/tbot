@@ -1,8 +1,5 @@
-from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
-from conf.settings import TELEGRAM_TOKEN, HTTP_CATS_URL
-from conf.texts4messages import *
+# Main code
 from operations import *
-
 
 def main():
     updater = Updater(token = TELEGRAM_TOKEN)

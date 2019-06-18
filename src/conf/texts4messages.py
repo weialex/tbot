@@ -2,9 +2,18 @@
 
 START_WELCOME = ("Bem vindo ao bot Talklicious.\n\n"+
   "Segue abaixo a lista de comandos disponíveis:\n"+"1. /http NÚMERO\n"+
-  "2. /about\n"+"3. /help\n"+"4. /idol\n"+"5. /decision"+"6. /who")
+  "2. /about\n"+"3. /help\n"+"4. /idol\n"+"5. /decision\n"+"6. /who")
 
-HELP_MESSAGE = "Espero que seu dia seja melhor após ver esse pudim:"
+HELP_DEFAULT = ("Faltam argumentos. Para entender melhor algum comando, digite-o"+
+                "após o /help. \nEx: /help decision")
+
+HELP_DECISION = "Ex: /decision \"texto 1\" \"texto 2\" opcao3 4"
+
+HELP_HTTP = "Ex: /"
+
+MISS_ARG_MSG = "Faltam argumentos."
+
+MOTIVACIONAL_MESSAGE = "Espero que seu dia seja melhor após ver esse pudim:"
 
 ABOUT_MESSAGE = "Apenas para exercício do aprendizado de chatbot. Feito com a ajuda de: https://github.com/mdcg/http-cats-telegram-bot"
 
@@ -16,7 +25,7 @@ HELLO_MESSAGE = ("Olá. Como você está e no que posso ajudá-lo?"+'\n'+
 DONT_ACCEPT_MEDIA = ("Infelizmente a mídia ainda não é aceita pelo bot.")
 
 
-### Listas com gifs para as idols
+### List of idols gifs
 
 SEULGI_GIFS = ["http://66.media.tumblr.com/a7025c56aef998a32d121f99b8640d41/tumblr_o2610zYfHV1tizu4so5_r1_400.gif", "https://thumbs.gfycat.com/ImmaculateTallBorderterrier-max-1mb.gif", "https://66.media.tumblr.com/50a46811a8a7df820c36d55025ef2d1e/tumblr_ost2lyZXkx1vfd67uo1_500.gif"]
 
