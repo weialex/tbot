@@ -1,7 +1,10 @@
 # Main code
 from operations import *
+import os
 
 def main():
+    TELEGRAM_TOKEN = os.environ["TOKEN"]
+
     updater = Updater(token = TELEGRAM_TOKEN)
     dispatcher = updater.dispatcher
 

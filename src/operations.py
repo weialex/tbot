@@ -1,6 +1,6 @@
 from telegram.ext import CommandHandler, Filters, MessageHandler, Updater, CallbackQueryHandler
 
-from conf.settings import TELEGRAM_TOKEN
+#from conf.settings import TELEGRAM_TOKEN
 from conf.texts4messages import DONT_ACCEPT_MEDIA
 from commands import *
 from messages import *
